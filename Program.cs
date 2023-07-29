@@ -54,6 +54,21 @@ internal class Program{
    
         break;
         case 4:
+
+            Console.Write("Ingrese el codigo del producto para actualizar: ");
+            int actualizarCodigo = int.Parse(Console.ReadLine());
+             foreach (var item in productos){
+                if(item.Codigo == actualizarCodigo){
+                    Console.Write("Ingrese el nuevo precio: ");
+                    int nuevoPrecio = int.Parse(Console.ReadLine());
+                    item.ActualizarPrecio(nuevoPrecio);
+                    Console.WriteLine("Cambio éxitoso. ");
+                }else{
+                    Console.WriteLine("Ingrese un codigo existente.");
+                }
+                    
+            }
+
           //ShowContacts(directoryImportant);
         break;
         case 0: 
