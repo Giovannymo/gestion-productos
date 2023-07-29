@@ -28,9 +28,6 @@ namespace gestionProductos{
         public void ActualizarInventario(int inventario){
              Inventario = inventario;
         }   
-        void ActualizarClientes(string cliente){
-             Clientes.Add(cliente);
-        }
 
     }
 }

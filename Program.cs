@@ -7,8 +7,6 @@ internal class Program{
 
 
     do{
-        Console.WriteLine("Nombre de cliente: ");
-        string ? cliente = Console.ReadLine();
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("\n ========== MENÚ ========== \n");
         Console.ResetColor();
@@ -17,7 +15,6 @@ internal class Program{
                     "3.Mostrar lista de productos. \n"+
                     "4.Actualizar precio producto. \n"+
                     "5.Actualizar inventario producto. \n"+
-                    "6.Actualizar listado clientes. \n"+
                     "0.Salir.\n");
 
       int ? select = int.Parse(Console.ReadLine());
@@ -34,7 +31,6 @@ internal class Program{
             int cantidad = int.Parse(Console.ReadLine());
 
             Producto producto = new Producto(codigo, nombre, precio, cantidad);
-            producto.Clientes.Add(cliente);
             productos.Add(producto);
         break;
         case 2: 
@@ -68,8 +64,22 @@ internal class Program{
                 }
                     
             }
+        break;
 
-          //ShowContacts(directoryImportant);
+        case 5:
+            Console.Write("Ingrese el codigo del producto para actualizar: ");
+            int actualizarInventario = int.Parse(Console.ReadLine());
+             foreach (var item in productos){
+                if(item.Codigo == actualizarInventario){
+                    Console.Write("Ingrese el nuevo stock: ");
+                    int nuevoStock = int.Parse(Console.ReadLine());
+                    item.ActualizarInventario(nuevoStock);
+                    Console.WriteLine("Cambio éxitoso. ");
+                }else{
+                    Console.WriteLine("Ingrese un codigo existente.");
+                }
+                    
+            }
         break;
         case 0: 
             next = false;
