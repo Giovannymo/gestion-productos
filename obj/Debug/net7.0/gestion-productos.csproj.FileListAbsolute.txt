@@ -13,3 +13,18 @@
 /home/arteN01-056/Documents/gestion-productos/obj/Debug/net7.0/gestion-productos.pdb
 /home/arteN01-056/Documents/gestion-productos/obj/Debug/net7.0/gestion-productos.genruntimeconfig.cache
 /home/arteN01-056/Documents/gestion-productos/obj/Debug/net7.0/ref/gestion-productos.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\bin\Debug\net7.0\gestion-productos.exe
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\bin\Debug\net7.0\gestion-productos.deps.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\bin\Debug\net7.0\gestion-productos.runtimeconfig.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\bin\Debug\net7.0\gestion-productos.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\bin\Debug\net7.0\gestion-productos.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.csproj.AssemblyReference.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.AssemblyInfoInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.AssemblyInfo.cs
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.csproj.CoreCompileInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\refint\gestion-productos.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\gestion-productos.genruntimeconfig.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\gestion-productos\obj\Debug\net7.0\ref\gestion-productos.dll

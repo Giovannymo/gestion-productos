@@ -1,10 +1,7 @@
 ﻿using gestionProductos;
 
-
-
 internal class Program{
     public static void Main(string[] args){
-        List<dynamic>   list = new List<dynamic>(); 
         List<Producto>  productos = new List<Producto>(); 
         bool next=true;
 
@@ -51,7 +48,10 @@ internal class Program{
             }
         break;
         case 3:
-          //ImportantSelect();          
+            foreach (var item in productos){
+                item.MostrarDetalles();
+            }
+   
         break;
         case 4:
           //ShowContacts(directoryImportant);
@@ -60,6 +60,7 @@ internal class Program{
             next = false;
         break;
       }
+      
       
     }while(next);
     }
